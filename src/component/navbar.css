@@ -3,6 +3,7 @@
     width:100%;
     margin:0;
     display:flex;
+    flex-wrap: wrap;    
 }
 .navbar a{
     text-decoration: none;
@@ -19,4 +20,13 @@
 
 .navbar a:active{
     background-color: rgb(78, 255, 2);
+}
+
+
+@media screen and (max-width: 400px) {
+    .navbar a{
+        flex-basis: 400px;
+        text-align: center;
+    }
+    
 }
