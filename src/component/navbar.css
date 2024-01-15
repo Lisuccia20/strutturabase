@@ -3,7 +3,8 @@
     width:100%;
     margin:0;
     display:flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap; 
+    transition:all .3s;   
 }
 .navbar a{
     text-decoration: none;
@@ -17,10 +18,13 @@
     background-color: transparent;
     border: none;
     height: 100%;
-    padding:20px;
+    padding: 20px;
     transition: all .3s; 
     text-align: center;
-    font-size:2em;
+}
+.navbar button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
 }
 
 .navbar a:hover{
