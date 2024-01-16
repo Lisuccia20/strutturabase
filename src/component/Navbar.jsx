@@ -11,8 +11,6 @@ export default function Navbar(){
         <div className="navbar">
             <a onClick={() => {navigate("/")}} >Material UI</a>
             <a onClick={() => {navigate("/about")}}>about</a>
-            <a onClick={() => {navigate("/products")}} >examples</a>
-            <a onClick={() => {navigate("/users")}}>users</a>
         </div>
     )
 }
